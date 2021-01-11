@@ -1,4 +1,5 @@
 import 'package:eterofobia/src/pages/home/body.dart';
+import 'package:eterofobia/src/widgets/wrapper_container.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,7 +9,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Body(),
+      body: WrappedContainer(
+        child: Body(),
+      ),
     );
   }
 }

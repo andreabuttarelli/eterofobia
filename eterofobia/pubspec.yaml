@@ -30,6 +30,8 @@ dependencies:
   google_fonts: ^1.1.1
   blobs: ^1.2.0
   graphic: ^0.3.0
+  clipboard: ^0.1.2+8
+  responsive_builder: ^0.3.0
 
 dev_dependencies:
   flutter_test:

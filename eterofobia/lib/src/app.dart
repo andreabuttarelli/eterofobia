@@ -1,4 +1,5 @@
 import 'package:eterofobia/src/pages/home/home.dart';
+import 'package:eterofobia/src/socials/death-counter.dart';
 import 'package:flutter/material.dart';
 
 class EterofobiaApp extends StatelessWidget {
@@ -7,6 +8,7 @@ class EterofobiaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
