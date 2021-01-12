@@ -9,9 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: WrappedContainer(
-        child: Body(),
-      ),
+      body: Body(),
     );
   }
 }
